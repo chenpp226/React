@@ -1,0 +1,88 @@
+#mall.page{
+    background: #f2f2f2;
+}
+
+/* 头部 */
+.mall-header{
+    width: 100%;
+    height: 44px;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.mall-header h2{
+    flex: 1;
+    color: #000;
+    font-size: 0.52rem;
+}
+.mall-header span{
+    font-size: 0.56rem;
+}
+
+/*内容部分  */
+.mall-content{
+    width: 100%;
+    position: absolute;
+    top:44px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 0.3rem;
+}
+.mallList-wrapper{
+    overflow: hidden;
+}
+.mallList{
+    overflow: hidden;
+}
+.mall-content h3{
+    font-size: 0.42rem;
+    text-align: center;
+    width: 100%;    
+}
+.mall-content ul{
+    background: #f2f2f2;
+    padding-top: 0.3rem;
+    overflow: hidden;
+}
+.mall-content ul li{
+    display: block;
+    box-sizing: border-box;
+    margin:0 0 0.2rem 0.2rem;
+    text-align: center;
+    padding-left: 0.3rem;
+    width: 47%;
+    float: left;
+    background: #fff
+}
+.mall-content ul li img{
+    width: 100%;
+    padding-bottom: 0.2rem;
+}
+.mall-content ul li h4{
+    font-size: 0.36rem;
+    height: 1.2rem;
+    font-weight: 100;
+    color: #000;
+    text-align: left;
+    padding-bottom: 0.2rem;
+}
+.mall-content ul li div{
+    text-align: left;
+}
+.mall-content ul li span:first-of-type{
+    font-size: 0.36rem;
+    color: #f40;
+}
+.mall-content ul li span:nth-of-type(2){
+    font-size: 0.30rem;
+    padding-left: 0.3rem;
+}

@@ -1,0 +1,79 @@
+#goodsDetail.page{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 13;
+    background: #ebebeb;
+}
+/* 头部 */
+.goods-detail-header{
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: #282828;
+    color: #fff;
+}
+.goods-detail-header span{
+    position: absolute;
+    font-size: 0.48rem;
+    padding: 0.3rem;
+}
+.goods-detail-header h3{
+    text-align: center;
+    line-height: 44px;
+}
+/* 内容部分 */
+.goods-detail-content{
+    width: 100%;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    bottom: 0;
+}
+.goods-detail-content img{
+    width: 100%;
+}
+/* 轮播图 */
+.goods-detail-content .goodsBanner{
+    margin-bottom: 0.3rem;
+}
+/* 价格等 */
+#goodsDetail .goods-detail-content .goods-info{
+    box-sizing: border-box;
+    padding: 0.3rem;
+    background: #fff;
+    margin-bottom: 0.3rem;
+}
+.goods-detail-content .goods-info h3{
+    color: #000;
+    margin-bottom: 0.3rem;
+}
+.goods-detail-content .goods-info p{
+    font-size: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.goods-detail-content .goods-info span{
+    font-size: 0.3rem;
+}
+.goods-detail-content .goods-info i{
+    display: block;
+    font-size: 0.56rem;
+    color: #f40;
+    margin-bottom: 0.3rem;
+}
+.goods-detail-content .goods-info .deliver-box{
+    display: flex;
+    justify-content: space-between;
+}
+.deliver-box span{
+    flex: 1
+}
+.deliver-box span:nth-of-type(2){
+    text-align: center
+}
+.deliver-box span:nth-of-type(3){
+    text-align: right;
+}

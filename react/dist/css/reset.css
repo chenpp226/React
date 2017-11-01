@@ -1,0 +1,42 @@
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;}
+body,html{color: #757575;width: 100%; height: 100%; font-size:9.26vw}
+body{font:16px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;}
+a{text-decoration:none; color:#757575;}
+a:hover{text-decoration:none;}
+i,em{font-style:normal;}
+b,strong{font-weight:100;}
+ul,ol{list-style:none;}
+img{border:none;display: block;}
+input{outline:none;}
+
+/*公共样式*/
+.clear:after{content:'.';display:block;height:0;clear:both;overflow:hidden;visibility:hidden;}
+.one-bottom-px{
+	position: relative;
+}
+.one-bottom-px:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px solid #bfbfbf;
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	transform: scaleY(0.5);
+}
+.one-top-px{
+	position: relative;
+}
+.one-top-px:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	border-top: 1px;
+	position: absolute;
+	left: 0;
+	top: -1px;
+	transform: scaleY(0.5);
+}

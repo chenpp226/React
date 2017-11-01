@@ -1,0 +1,117 @@
+#mine.page{
+    background: #f2f2f2;
+}
+.login{
+    width: 100%;
+    height: 6rem;
+    box-sizing: border-box;
+    background: #010101;
+    color: #fff;
+    overflow: hidden;
+    padding-top: 2rem;
+    text-align: center
+}
+.login i{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 0.5rem;
+}
+.login .user-thumb{
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.login .user-thumb span{
+    line-height: 2rem;
+    font-size: 2rem;
+}
+.login h4{
+    width: 100%;
+    font-weight: 100;
+    padding: 0.3rem 0;
+}
+.mine-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+}
+.mine-nav li{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    padding: 0.3rem 0;
+}
+.mine-nav li span{
+    font-size: 0.8rem;   
+}
+.mine-nav li i{
+    font-size: 0.36rem;
+}
+.center,.card{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0.3rem;
+    margin-bottom: 0.3rem;
+    justify-content: space-between;
+    background: #fff;
+}
+.center span:nth-of-type(2n-1){
+    font-size: 0.56rem;
+    margin-right: 0.3rem;
+}
+.center h4{
+    flex: 1;
+    color: #000;
+}
+.center span:nth-of-type(2n){
+    font-size: 0.5rem;
+}
+.card span:nth-of-type(2n-1){
+    font-size: 0.56rem;
+    margin-right: 0.3rem;
+}
+.card h4{
+    flex: 1;
+    color: #000;
+}
+.card span:nth-of-type(2n){
+    font-size: 0.5rem;
+}
+
+.money{
+    width: 100%;
+    background: #fff;
+    
+}
+.money li{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0.3rem;
+}
+.money li span{
+    font-size: 0.56rem;
+    padding-right: 0.3rem ;
+    padding-bottom: 0.3rem;
+}
+.money li div{
+    flex: 1;
+    display: flex;
+     padding-bottom:  0.3rem ; 
+    /* line-height: 1.1rem; */
+    justify-content: space-between;
+}
+.money li div h4{
+    flex: 1
+}
+.money li div i{
+    font-size: 0.5rem;
+}

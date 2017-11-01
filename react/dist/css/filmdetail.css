@@ -1,0 +1,53 @@
+#film-detail.page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 13;
+    background: #fff;
+}
+/* 头部 */
+.film-detail-header{
+    height: 44px;
+    width : 100%;
+    position: absolute;
+    background: #282828;
+    color: #fff;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+.film-detail-header span{
+    font-size: 0.48rem;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.3rem;
+}
+.film-detail-header h3{
+    width: 100%;
+    line-height: 44px;
+    text-align:center;
+}
+
+/* 内容部分 */
+.film-detail-content{
+    width: 100%;
+    position: absolute;
+    top: 44px;
+    left: 0;
+}
+.film-detail-img img{
+    width: 100%;
+}
+.introduce{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.3rem;
+}
+.introduce p{
+    margin-top:0.3rem;
+    font-size: 0.4rem; 
+}
+
+
+

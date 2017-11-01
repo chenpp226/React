@@ -1,0 +1,50 @@
+#location.page{
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    top: 0;
+    left: 0;
+    bottom: -49px;
+    z-index: 10;
+}
+/*头部  */
+.location-header{
+    width: 100%;
+    height: 44px;
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.location-header span{
+    font-size: 0.42rem;
+    position: absolute;
+    top: 0.34rem;
+    left: 0.3rem;
+}
+.location-header h3{
+    text-align: center;
+    line-height: 44px;
+}
+.location-content{
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    font-size: 0.46rem;
+}
+.location-content .info-title{
+    background: #e0e0e0;
+    padding: 0.3rem;
+}
+.location-content .location-info-wrapper>div>div{
+    width: 100%;
+    padding-left: 0.3rem;
+}
+.location-content .location-info-wrapper>div>div>p{
+    padding: 0.3rem 0;
+    color: #4f4f4f;
+}
